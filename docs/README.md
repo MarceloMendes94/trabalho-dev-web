@@ -1,6 +1,6 @@
 # 📘 Documentação do Projeto - Desenvolvimento Web
 
-![Planejamento do Projeto](./PMC.png)
+[Planejamento do Projeto](./PMC.pdf)
 
 ---
 
