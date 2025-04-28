@@ -57,11 +57,4 @@ Esta etapa se concentra na **implementação funcional** do sistema, utilizando 
 └── .gitignore
 ```
 
----
 
-## 📅 Cronograma de Entrega
-
-| Entrega | Data Limite |
-|--------|-------------|
-| Trabalho 1 | 26/05 |
-| Trabalho 2 | 30/06|
