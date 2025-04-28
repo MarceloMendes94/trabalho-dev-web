@@ -6,7 +6,19 @@
 
 ## 🧾 Visão Geral
 
-Este projeto visa o desenvolvimento de um sistema de pedidos online. O sistema permite que clientes visualizem produtos, adicionem ao carrinho, finalizem compras e acompanhem pedidos. A seguir, detalhamos os principais artefatos exigidos para a entrega.
+O aplicativo de resíduos sólidos introduz um sistema de gamificação e monetização para o usuário que deseja destinar seus resíduos corretamente, incentivando assim o descarte consciente e o engajamento da comunidade nesta causa.
+
+O usuário gerador de resíduos se cadastrará na plataforma, inserindo um e-mail válido, seu nome, endereço, telefone, senha de acesso e horário disponível para o recolhimento do lixo - deve ser obrigatoriamente entre 6:00 AM e 8:00 PM.
+
+Quando o usuário possuir resíduos que deseje descartar, deve selecionar a opção no aplicativo para agendar uma coleta no horário previamente cadastrado (pode estar sujeito a alteração).
+
+Os parceiros do negócio serão os motoristas, que também precisará de cadastro na plataforma, incluindo seus dados pessoais como nome, CNH, data de nascimento, telefone para contato, e-mail e uma senha de acesso, além de informações sobre seu veículo de carga como modelo, ano, placa e capacidade de carga. Com o cadastro feito, o sistema emitirá um nada consta para habilitar a coleta dos resíduos. Os veículos serão equipados com balanças e containers para cada tipo de lixo.
+
+O recolhimento se dará da seguinte forma: uma lista de endereços ordenada por hora daquele dia será mostrada na tela, o motorista selecionará quais endereços ele vai buscar os resíduos - evitando conflitos de horário - e deverá comparecer no local no horário escolhido, reunindo os resíduos, pesando-os e armazenando-os nos devidos containers.
+
+Após a coleta e pesagem dos resíduos, o usuário que os descartou ganhará progresso nas missões de cada tipo de material presente em nossa plataforma e uma quantia de TrashCoin. TrashCoin é a moeda criada especialmente para o aplicativo, o usuário poderá trocá-las ao acessar a loja interna que oferece cupons variados.
+
+O motorista, em posse dos resíduos coletados irá transportá-los para as empresas interessadas em obtê-los para reciclagem. Após a entrega, receberá uma quantia de TrashCoins que poderão ser convertidas em dinheiro posteriormente (para a retirada, a quantia de TrashCoins deverá ser maior que 15).
 
 ---
 
