@@ -24,18 +24,54 @@ O motorista, em posse dos resíduos coletados irá transportá-los para as empre
 
 ## ✅ Backlog
 
-| ID    | Prioridade | História de Usuário                                                                 |
-|-------|------------|--------------------------------------------------------------------------------------|
-| HU-1  | 1️⃣         | **No papel de cliente**, desejo **visualizar uma lista de produtos com imagem e preço**, para poder escolher o que desejo comprar. |
-| HU-2  | 2️⃣         | **No papel de cliente**, desejo **filtrar os produtos por categoria**, para encontrar mais rapidamente o que procuro. |
-| HU-3  | 3️⃣         | **No papel de cliente**, desejo **adicionar um produto ao carrinho**, para organizar minha compra antes de finalizar. |
-| HU-4  | 4️⃣         | **No papel de cliente**, desejo **visualizar os itens no meu carrinho com totais**, para acompanhar o valor da compra. |
-| HU-5  | 5️⃣         | **No papel de cliente**, desejo **remover ou alterar a quantidade de itens no carrinho**, para ajustar minha compra. |
-| HU-6  | 6️⃣         | **No papel de cliente**, desejo **finalizar o pedido com um clique**, para concluir minha compra com rapidez. |
-| HU-7  | 7️⃣         | **No papel de cliente**, desejo **ver uma confirmação visual do pedido após finalizar**, para ter certeza que deu tudo certo. |
-| HU-8  | 8️⃣         | **No papel de cliente**, desejo **me autenticar com login e senha**, para acessar meu histórico de pedidos e carrinho. |
-| HU-9  | 9️⃣         | **No papel de cliente**, desejo **visualizar o histórico de pedidos realizados**, para acompanhar minhas compras anteriores. |
-| HU-10 | 🔟         | **No papel de administrador**, desejo **visualizar todos os pedidos realizados**, para acompanhar e organizar a entrega. |
+### 🧍‍♂️ Usuário Gerador de Resíduos
+
+| ID   | História de Usuário                                                                                  |
+|------|-------------------------------------------------------------------------------------------------------|
+| U1   | Como usuário, quero me cadastrar com nome, e-mail, telefone, endereço, senha e horário de coleta, para agendar coletas. |
+| U2   | Como usuário, quero ser obrigado a inserir horário entre 6:00 AM e 8:00 PM, para garantir coletas válidas. |
+| U3   | Como usuário, quero acessar minha conta com e-mail e senha, para acompanhar coletas e saldo.          |
+| U4   | Como usuário, quero agendar uma coleta de resíduos, para que o motorista venha buscá-los no horário.  |
+| U5   | Como usuário, quero poder alterar meu horário de coleta cadastrado, para adaptar minha disponibilidade. |
+| U6   | Como usuário, quero receber TrashCoins pelos resíduos descartados, para ser recompensado.             |
+| U7   | Como usuário, quero acompanhar meu progresso em missões por tipo de resíduo, para me motivar a reciclar. |
+| U8   | Como usuário, quero acessar uma loja interna para trocar TrashCoins por cupons variados.              |
+
+---
+
+### 🚛 Motorista (Parceiro de Coleta)
+
+| ID   | História de Usuário                                                                                  |
+|------|-------------------------------------------------------------------------------------------------------|
+| M1   | Como motorista, quero me cadastrar com dados pessoais, CNH, e dados do veículo, para poder coletar resíduos. |
+| M2   | Como motorista, quero que o sistema emita um "nada consta" após cadastro, para confirmar que estou apto. |
+| M3   | Como motorista, quero acessar minha conta com e-mail e senha, para visualizar coletas e registrar ações. |
+| M4   | Como motorista, quero visualizar uma lista de coletas ordenada por horário, para planejar minha rota.  |
+| M5   | Como motorista, quero selecionar quais coletas vou realizar, para evitar conflitos de horário.         |
+| M6   | Como motorista, quero registrar a coleta, pesando e separando os resíduos, para manter organização.    |
+| M7   | Como motorista, quero receber TrashCoins pelas coletas realizadas e entregues, para ser recompensado.  |
+| M8   | Como motorista, quero converter TrashCoins em dinheiro (acima de 15), para monetizar meu trabalho.     |
+
+---
+
+### 🛠️ Sistema/Admin
+
+| ID   | História de Usuário                                                                                  |
+|------|-------------------------------------------------------------------------------------------------------|
+| S1   | Como sistema, quero validar o horário de coleta (6:00 AM - 8:00 PM), para evitar agendamentos inválidos. |
+| S2   | Como sistema, quero emitir um "nada consta" após o cadastro do motorista, para habilitá-lo.            |
+| S3   | Como sistema, quero calcular e atribuir TrashCoins com base no peso e tipo de resíduo, para recompensar usuários e motoristas. |
+| S4   | Como sistema, quero atualizar o progresso de missões do usuário, para incentivá-lo a continuar reciclando. |
+| S5   | Como sistema, quero manter uma loja interna com cupons, para que os usuários troquem suas TrashCoins. |
+
+---
+
+### 🏭 Empresa Recicladora 
+
+| ID   | História de Usuário                                                                                  |
+|------|-------------------------------------------------------------------------------------------------------|
+| E1   | Como empresa recicladora, quero receber os resíduos já separados e pesados, para facilitar a reciclagem. |
+
 
 ---
 
