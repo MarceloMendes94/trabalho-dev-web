@@ -79,10 +79,10 @@ O motorista, em posse dos resíduos coletados irá transportá-los para as empre
 
 Cada funcionalidade descrita no backlog possui ao menos uma tela representando sua interface esperada.
 
-### 🖼️ Protótipo do Requisito HU-1
+### 🖼️ Protótipo do Requisitos de cliente HU-1
 
-![Protótipo da tela de listagem de produtos](wireframe1.png)
-**Figura 1**: Tela de listagem de produtos com imagem, nome e preço — correspondente à história de usuário HU-1.
+![Protótipo da tela de listagem de produtos](./Mockup-Cliente.jpg)
+**Figura 1**: Telas com fluxos de requisitos e telas
 
 ---
 
